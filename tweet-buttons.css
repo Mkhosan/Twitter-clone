@@ -1,0 +1,21 @@
+/* Add your custom CSS for like and comment buttons here */
+.tweet__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .tweet__like-button,
+  .tweet__comment-button {
+    background: none;
+    border: none;
+    color: #657786;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .tweet__like-button i,
+  .tweet__comment-button i {
+    margin-right: 5px;
+  }
+  
